@@ -20,7 +20,7 @@ def test_contraseña_contiene_numeros():
 
 def test_contraseña_contiene_caracteres_especiales():
 	assert(chr in RandomPasswordGenerator(15) for chr in string.punctuation)
-    
+
 def test_contraseña_contiene_letras_simbolos():
 	characters = string.ascii_letters + string.digits + string.punctuation
 	assert(chr in RandomPasswordGenerator(15) for chr in characters)

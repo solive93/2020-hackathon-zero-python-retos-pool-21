@@ -24,8 +24,8 @@ def quienGana(player, ai):
 
 # Entry Point
 def Game():
-    player = print("Escoge: piedra, papel o tijera? ").lower
-    ai = options.randint(0, 2).lowe
+    player = print("Escoge: piedra, papel o tijera? ").lower()
+    ai = options.randint(0, 2).lower()
     
     #
     #
