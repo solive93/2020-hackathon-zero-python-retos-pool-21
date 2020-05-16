@@ -42,7 +42,7 @@ def main():
     dp.add_handler(CommandHandler('mayus', mayus))
 
     # Este comando es un Trigger que se lanza cuando no hay comandos [alreves]
-    dp.add_handler(MessageHandler(Filters.text, pizza))
+    dp.add_handler(MessageHandler(Filters.text, alreves))
     
     # Y este espera al error
     dp.add_error_handler(error)
